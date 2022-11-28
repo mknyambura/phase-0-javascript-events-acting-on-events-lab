@@ -1,4 +1,4 @@
-// Your code here
+// // Your code here
 function moveDodgerLeft() {
     const leftNumbers = dodger.style.left.replace("px", "");
     const left = parseInt(leftNumbers, 10);
@@ -15,11 +15,16 @@ function moveDodgerRight() {
       dodger.style.left = `${left + 1}px`;
     }
 }
-document.addEventListener("keydown", function(e) {
-    if (e.key === "ArrowLeft") {
-        moveDodgerLeft();
-    }
-    else if (e.key === "ArrowRight") {
-        moveDodgerRight();
-    }
-  });
+// document.addEventListener("keydown", function(e) {
+//     if (e.key === "ArrowLeft") {
+//         moveDodgerLeft();
+//     }
+//     else if (e.key === "ArrowRight") {
+//         moveDodgerRight();
+//     }
+//   });
+
+// function say(greeting, firstName) {
+//   return `${greeting}, ${firstName}!`;
+//   console.log('I was called!');
+// }
